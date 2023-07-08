@@ -19,10 +19,12 @@
         </form>
     </div>
     <div>
+        {% if prediction %}
         {% if prediction == 1 %}
         <h2 id="one">SPAM</h2>
         {% else %}
         <h2 id="two">NOT SPAM</h2>
+        {% endif %}
         {% endif %}
     </div>
 </body>
