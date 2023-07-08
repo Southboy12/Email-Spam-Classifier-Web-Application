@@ -20,9 +20,6 @@ def predict():
     prediction = 1 if prediction == 1 else -1
     return render_template("index.html", prediction=prediction, email=email)
 
-
-
-
 # Run the flask application
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
