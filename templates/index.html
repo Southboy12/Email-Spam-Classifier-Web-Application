@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>EMAIL SPAM CLASSIFIER</h1>
+    <div>
+        <form method="post" action="/predict">
+            <textarea name="content" cols="60" rows="12" placeholder="Type or paste your email here" 
+            value="{{ email }}">{{ email }}</textarea>
+            <div>
+                <button>Submit</button>
+                <a href="/">Reset</a>
+            </div>
+        </form>
+    </div>
+    <div>
+        {% if prediction == 1 %}
+        <h2 id="one">SPAM</h2>
+        {% else %}
+        <h2 id="two">NOT SPAM</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
