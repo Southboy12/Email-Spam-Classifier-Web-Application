@@ -1,4 +1,4 @@
-# Email Spam Classifier
+# ![Email Spam Classifier](/Screenshots/Homepage.png)
 
 This is a simple web application that demonstrates an email spam classifier. It uses Flask, a Python web framework, to handle the server-side logic, and HTML templates for the user interface. 
 
