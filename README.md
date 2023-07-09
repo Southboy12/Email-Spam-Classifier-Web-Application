@@ -4,14 +4,14 @@ This is a simple web application that demonstrates an email spam classifier. It 
 
 ## Table of Contents
 
-- [Features][Features]
+- [Features](#feature-1)
 Installation
 Usage
 Contributing
 License
 Contact
 
-## Features
+## Features {#feature-1}
 
 - Email Spam Classification: The application allows users to enter an email and classifies it as either spam or not spam using a pre-trained classifier model.
 - User-friendly Interface: The interface provides a text area for users to type or paste their email content, and buttons to submit the email for classification or reset the form.
