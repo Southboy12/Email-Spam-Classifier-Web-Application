@@ -3,6 +3,7 @@
 ![Homepge](/Screenshots/Homepage.png)
 
 This is a simple web application that demonstrates an email spam classifier. It uses Flask, a Python web framework, to handle the server-side logic, and HTML templates for the user interface. 
+Click [Here](https://email-spam-classifier-72ai.onrender.com) to access the webpage
 
 ## Table of Contents
 
